@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class InterfaceModuleConfig(AppConfig):
+class ApiForAdminConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'interface_module'
+    name = 'api_for_admin'
